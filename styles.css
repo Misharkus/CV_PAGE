@@ -1,0 +1,91 @@
+body {
+    /* background-color: bisque; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header {
+    text-align: center;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+.header__title {
+    font-size: 28px;
+}
+
+.header__subtitle {
+    color: darkcyan;
+    font-size: 22px;
+}
+
+main {
+    border: 1px solid darkgray;
+    text-align: center;
+
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.separator {
+    width: 50%;
+    height: 3px;
+    background-color: darkcyan;
+}
+
+.video {
+    width: 650px;
+    height: 350px;
+    border: none;
+}
+
+.hobbies ul {
+    list-style: none;
+}
+
+
+.ed__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ed__table th,
+.ed__table td {
+    border: 1px solid darkcyan;
+    padding: 10px;
+
+}
+
+.form__control {
+    width: 100%;
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__textarea {
+    margin-top: 10px;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+a {
+    color: darkcyan;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 10px;
+    height: 100px;
+    text-align: center;
+}

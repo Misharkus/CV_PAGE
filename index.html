@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>CV page</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="assets/blue-circle-with-white-user_78370-4707.avif" alt="my photo" class="avatar" />
+    <h1 class="header__title">Mykhailo | CV</h1>
+    <h2 class="header__subtitle">Frontend Developer</h2>
+  </header>
+  <main>
+    <section class="skills">
+      <h3>Skills</h3>
+      <details>
+        <summary>Skills list:</summary>
+        <ul>
+          <li>1. HTML</li>
+          <li>2. CSS</li>
+          <li>3. JavaScript</li>
+          <li>4. React</li>
+          <li>5. Typescript</li>
+        </ul>
+      </details>
+    </section>
+    <article class="article">
+      <h4>Short article about me</h4>
+
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui eius unde quas deserunt commodi
+        consequuntur
+        tempore, atque corrupti quis omnis cupiditate in itaque aut esse accusamus magni sequi ullam possimus
+        obcaecati
+        nihil eveniet fugit dolor a enim. Suscipit illo unde animi maxime nihil cupiditate corporis, ullam porro
+        ad modi
+        a.</p>
+    </article>
+
+    <section class="gallery">
+      <h3>Gallery</h3>
+      <img src="https://placehold.co/250x250" alt="placehold image">
+      <img src="https://placehold.co/250x250" alt="placehold image">
+      <img src="https://placehold.co/250x250" alt="placehold image">
+    </section>
+
+    <hr class="separator">
+
+    <section>
+      <iframe class="video" src="https://www.youtube.com/embed/sECs4qsbEQk?list=PLV9lBwGQ2FU0_w1Ch79wdhcCylBUdqPt7"
+        title="Frontender[1.0] - Модуль 1 | Курс по FRONTEND | HTML, CSS, SCSS, GIT, NPM, SEO, A11Y | УРОКИ [2-55]"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section class="hobbies">
+      <h4>My hobbies: </h4>
+      <details>
+        <summary>Hobbies</summary>
+
+        <ul>
+          <li>Football</li>
+          <li>Films</li>
+          <li>Formula 1</li>
+        </ul>
+      </details>
+    </section>
+
+    <hr class="separator">
+
+    <section class="education">
+      <table class="ed__table">
+        <thead>
+          <tr>
+            <th>Course / University </th>
+            <th>Profession</th>
+            <th>Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>It course 1</td>
+            <td>HTML & CSS</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>It course 2</td>
+            <td>JavaScript</td>
+            <td>2025</td>
+          </tr>
+          <tr>
+            <td>It course 3</td>
+            <td>React</td>
+            <td>2025</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <br>
+    <br>
+
+    <section class="interaction">
+      <form action="https://google.com" class="form" method="get" target="_blank">
+        <fieldset>
+          <legend>Required fields</legend>
+
+          <div>
+            <label for="firstName-id">First Name: </label>
+            <input class="form__control" type="text" name="firstName" id="firstName-id" required placeholder="Type...">
+          </div>
+
+          <div>
+            <label for="lastName-id">Last Name: </label>
+            <input class="form__control" type="text" name="lastName" id="lastName-id" required placeholder="Type...">
+          </div>
+          <div>
+            <label for="email-id">Email: </label>
+            <input class="form__control" type="email" name="email" id="email-id" required placeholder="Your email">
+          </div>
+        </fieldset>
+
+        <textarea class="form__textarea" name="questions" id="questions-id" rows="7" cols="45"
+          placeholder="Ask your questions"></textarea>
+
+        <button class="form__submit">Sumbit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <address>
+      <a href="mailto:goooogglenexus7@gmail.com">goooogglenexus7@gmail.com</a>
+      <br>
+      <a href="tel:+380679595692">+380679595692</a>
+    </address>
+  </footer>
+
+</body>
+
+</html>
